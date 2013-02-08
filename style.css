@@ -1,0 +1,37 @@
+#timeline { width: 1000px; margin:0 auto; height: 600px; background: #eee; position: relative; border-left: solid 1px #555; border-right: solid 1px #555}
+#timelineInfo{ border-right: solid 1px #555; width: 189px; height: 590px; position:absolute; background: #FFF1C2; padding: 5px;}
+#eventContainer{ width: 800px; right: 0px; position:absolute; height: 100%;}
+#caseInfoTitle {text-align: center; width: 100%; font-size: 1.2em; font-family: tahoma; padding-top: 5px;display:inline-block;}
+.caseInfo{text-align: left; width: 100%; font-size: 1em; font-family: tahoma; padding-top: 5px;display:inline-block;}
+.caseEvent{text-align: left; width: 100%; font-size: 0.8em; font-family: tahoma; padding-top: 5px;display:inline-block; color: blue;}
+.caseEvent:hover{text-decoration: underline; cursor: pointer;}
+
+.caseRule {position: absolute; color: #bbb; border-top: none; margin: 0px !important; width: 800px;}
+.event {position: absolute; background-color: #fff; border:solid 1px #555; height: 20px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;}
+.event-title { position:absolute; top: -15px; font-size:x-small; font-family: verdana}
+
+.event-hover {cursor: pointer;}
+.event-split {width:0px; position: absolute; height: 20px; border-right: solid 1px #555;}
+.event-split-selected {width:0px; position: absolute; border-right: dashed 1px #888; display:none;}
+.event-split-selected-hover { border-right: solid 2px #333;}
+.event-split-tip {position:absolute; background: #fff; width: 130px; font-family: arial; font-size: x-small; border: solid 1px #555; z-index: 100; display:none; padding: 5px;
+border-top-left-radius: 0px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;}
+.event-split-tip:hover {background-color: #F1FFC2;}
+
+.tip-title {font-weight: bold;}
+
+
+.dayTick {width:0px; position: absolute; height: 5px; border-right: solid 1px #000;}
+.dayTickFull { height: 100%;}
+
+.divider{height: 100%; border-right: dotted 1px #555; position:absolute; background-color: #DEE3FA;}
+
+.selected {background-color: #FFF1C2;}
+.shadow {box-shadow: 1px  1px 3px #aaa;}
